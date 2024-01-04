@@ -1,5 +1,314 @@
-.zomato-pic
-{
-    height: 50px;
-    width:100px;
-    contain: layout;
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.hero-section{
+    height: 570px;
+    width: 100vw;
+    background: url("zomato-main.webp");
+    background-size: cover;
+    background-position: 5%;
+    display: flex;
+    position: relative;
+}
+
+.navbar{
+    height: 72px;
+    width: 80vw;
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+    position: absolute;
+}
+
+.add-rest{
+    height: 40px;
+    width: 145px;
+    text-align: center;
+    text-justify: center;
+    align-self: center;
+}
+
+.log-in{
+    height: 40px;
+    width: 68px;
+    text-align: center;
+    text-justify: center;
+    align-self: center;
+}
+.sign-up{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    text-justify: center;
+    align-self: center;
+}
+
+.zomato-img{
+    height: 60px;
+    width: 100%;
+    background-image: url(zomato_logo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center; 
+    position: relative;
+    left: 580px; 
+    bottom: 30px;  
+}
+
+.text{
+    height: 86px;
+    width: 900px;
+    font-size: 36px;
+    font-weight: lighter;
+    position: relative;
+    right: 33%;
+    top: 55%;
+    text-align: center;
+}
+
+.main-body{
+    height: 1150px;
+    width: auto;
+    margin: 40px 130px 40px 130px;
+}
+
+.heading{
+    height: 43px;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.text1{
+    color: #1c1c1c;
+    height: inherit;
+    width: 290px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.text-img{
+    height: inherit;
+    width: 70px;
+    margin: 15px;
+    background-image: url(india_flag.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 15px 0px 15px;
+}
+
+.text2{
+    color: #1c1c1c;
+    height: inherit;
+    width: 68px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.parah{
+    margin: 40px 0px 70px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.in_parah{
+    height: 90px;
+    width: 990px;
+    color: #696969;
+    font-size: 23px;
+    text-align: center;
+}
+
+.main-box{
+    height: 100px;
+    width: 360px;
+    padding: 0px 13.3px 20px 0px;
+}
+
+.box{
+    height: 25px;
+    width: 340px;
+    border: 1.5px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(232, 232, 232);
+    padding: 20px 24px;
+    display: flex;
+}
+
+.box:hover{
+    box-shadow: 2px 5px 8px rgb(232, 232, 232);
+}
+
+.box-details{
+    display: flex;
+    justify-content: space-between;
+}
+.in-details{
+    height: 24px;
+    width: 354px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-details p{
+    color: #1c1c1c;
+    font-size: 1.2rem;
+}
+
+.in-details i{
+    height: 24px;
+    width: 24px;
+    color: #1c1c1c;
+    font-size: 1rem;
+    position: relative;
+    top: 5px;
+}
+
+.boxes{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    height: 480px;
+    width: auto;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    height: 480px;
+    width: 76%;
+    padding: 48px 0px 22px;
+}
+
+.first{
+    height: 37px;
+    width: auto;
+    display: flex;
+    margin: 0px 0px 40px;
+    justify-content: space-between;
+}
+
+.zomato-pic{
+    height: 29px;
+    width: 132px;
+    background-image: url(zomato_logo2.webp);
+    background-size: contain;
+}
+
+.select{
+    color: #1c1c1c;
+}
+
+.flag{
+    background-image: url(india_flag.webp);
+    background-size: cover;
+}
+.country p{
+    font-size: 18px;
+    color: #1c1c1c;
+}
+
+.select1{
+    height: 37px;
+    width: 109px;
+    background-color: #f8f8f8;
+}
+
+.about-zomato{
+    height: 212px;
+    width: 202px;
+}
+
+.links{
+    display: flex;
+}
+.about{
+    height: auto;
+    width: 202px;
+    color: #000;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.data{
+    height: auto;
+    width: 214px;
+    margin: 5px 0px;
+    color: #696969;
+    font-size: 16px;
+}
+
+.inner-box1{
+    margin-bottom: 30px;
+}
+
+.icons-list{
+    margin-top: 5px;
+    height: auto;
+    width: 214px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 16px;
+    display: flex;
+}
+
+.icons{
+    height: 22px;
+    width: 22px;
+    background-color: #000;
+    font-size: 16px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.app_store{
+    height: 40px;
+    width: auto;
+    background-image: url(app_store.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 25px 0px 25px;
+}
+
+.google_play{
+    height: 40px;
+    width: auto;
+    background-image: url(google_play.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px 0px 10px;
+}
+
+.country-select{
+    height: auto;
+    width: 110px;
+    font-size: 18px;
+    color: #1c1c1c;
+    background-color: #f8f8f8;border-radius: 8px;
+}
+
+.select-section{
+    width: 240px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.globe{
+    height: auto;
+    width: 35px;
+}
